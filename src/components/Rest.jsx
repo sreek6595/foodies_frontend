@@ -2,9 +2,9 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FaUtensils, FaClipboardList, FaShoppingCart, FaMoneyBill, FaStar, FaUserTie, FaBell, FaEnvelope, FaPhone } from "react-icons/fa";
-import { logoutAction } from "../redux/Userslice";
 import { useQuery } from "@tanstack/react-query";
 import { getUserNotificationsAPI } from "../services/notificationService";
+import { logoutAction } from "../redux/userslice";
 
 const Rest = () => {
   const navigate = useNavigate();
