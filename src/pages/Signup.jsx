@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { useMutation } from "@tanstack/react-query";
 import { registerAPI } from "../services/userServices";
-import { loginUserAction } from "../redux/Userslice";
 import { jwtDecode } from "jwt-decode";
+import { loginUserAction } from "../redux/userslice";
 
 const Signup = () => {
   // ✅ Validation Schema
