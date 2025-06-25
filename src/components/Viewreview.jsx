@@ -5,7 +5,7 @@ import { getReviewsAPI, getReviewsResAPI } from "../services/restaurantServices"
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FaUtensils, FaClipboardList, FaShoppingCart, FaMoneyBill, FaStar as FaStarIcon, FaUserTie, FaBell } from "react-icons/fa";
-import { logoutAction } from "../redux/Userslice";
+import { logoutAction } from "../redux/userslice";
 import { useQuery as useNotificationsQuery } from "@tanstack/react-query";
 import { getUserNotificationsAPI } from "../services/notificationService";
 

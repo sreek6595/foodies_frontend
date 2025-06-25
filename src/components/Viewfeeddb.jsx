@@ -4,7 +4,7 @@ import { FaTruck, FaList, FaCommentDots, FaUserCircle, FaBell, FaSignOutAlt, FaS
 import { useNavigate } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { getUserNotificationsAPI } from "../services/notificationService";
-import { logoutAction } from "../redux/Userslice";
+import { logoutAction } from "../redux/userslice";
 import { getDeliveryBoyfeedbackAPI } from "../services/deliveryboyServices";
 
 const Viewfeeddb = () => {
