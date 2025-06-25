@@ -7,7 +7,7 @@ import {
 } from "../services/notificationService";
 import { useNavigate } from "react-router-dom";
 import { FaUtensils, FaClipboardList, FaShoppingCart, FaMoneyBill, FaStar as FaStarIcon, FaUserTie, FaBell } from "react-icons/fa";
-import { logoutAction } from "../redux/Userslice";
+import { logoutAction } from "../redux/userslice";
 
 const RestaurantOwnerNotifications = () => {
   const queryClient = useQueryClient();

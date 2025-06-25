@@ -10,7 +10,7 @@ import {
   FaUserTie,
   FaBell,
 } from "react-icons/fa";
-import { logoutAction } from "../redux/Userslice";
+import { logoutAction } from "../redux/userslice";
 import { useQuery } from "@tanstack/react-query";
 import { getUserNotificationsAPI } from "../services/notificationService";
 import { getOrdersowner } from "../services/orderServices";

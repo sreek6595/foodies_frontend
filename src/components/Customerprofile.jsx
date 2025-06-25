@@ -19,7 +19,7 @@ import {
 } from "react-icons/fa";
 import { changePasswordAPI, editProfileAPI, getUserProfileAPI } from "../services/userServices";
 import { getuserorder, cancelOrderAPI } from "../services/orderServices";
-import { logoutAction } from "../redux/Userslice";
+import { logoutAction } from "../redux/userslice";
 import { getUserNotificationsAPI } from "../services/notificationService";
 import { useNavigate } from "react-router-dom";
 

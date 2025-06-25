@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FaTruck, FaList, FaCommentDots, FaSignOutAlt, FaUserCircle, FaBell, FaEnvelope, FaPhone } from "react-icons/fa";
-import { logoutAction } from "../redux/Userslice";
+import { logoutAction } from "../redux/userslice";
 import { getUserNotificationsAPI } from "../services/notificationService";
 import { useQuery } from "@tanstack/react-query";
 

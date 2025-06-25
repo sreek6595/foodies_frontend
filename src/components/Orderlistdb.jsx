@@ -6,7 +6,7 @@ import toast, { Toaster } from "react-hot-toast";
 import { getDeliveryByOrderAPI, sendOTPAPI, updateDeliveryStatusAPI } from "../services/deliveryServices";
 import { getUserNotificationsAPI } from "../services/notificationService";
 import { useNavigate } from "react-router-dom";
-import { logoutAction } from "../redux/Userslice";
+import { logoutAction } from "../redux/userslice";
 
 const Orderlistdb = () => {
   const [search, setSearch] = useState("");

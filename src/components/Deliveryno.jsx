@@ -7,7 +7,7 @@ import {
 } from "../services/notificationService";
 import { useNavigate } from "react-router-dom";
 import { FaTruck, FaList, FaCommentDots, FaUserCircle, FaBell, FaSignOutAlt } from "react-icons/fa";
-import { logoutAction } from "../redux/Userslice";
+import { logoutAction } from "../redux/userslice";
 
 const Deliveryno = () => {
   const queryClient = useQueryClient();

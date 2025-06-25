@@ -11,7 +11,7 @@ import {
   FaUser,
   FaBell,
 } from "react-icons/fa";
-import { logoutAction } from "../redux/Userslice";
+import { logoutAction } from "../redux/userslice";
 import { getUserNotificationsAPI } from "../services/notificationService";
 import { useQuery } from "@tanstack/react-query";
 

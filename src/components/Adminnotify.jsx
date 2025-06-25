@@ -7,7 +7,7 @@ import {
 } from "../services/notificationService";
 import { useNavigate } from "react-router-dom";
 import { FaChartLine, FaUtensils, FaUser, FaMotorcycle, FaMoneyBill, FaBell, FaSignOutAlt } from "react-icons/fa";
-import { logoutAction } from "../redux/Userslice";
+import { logoutAction } from "../redux/userslice";
 
 const AdminNotify = () => {
   const queryClient = useQueryClient();

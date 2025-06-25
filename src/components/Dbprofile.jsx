@@ -11,7 +11,7 @@ import {
 import { changePasswordAPI } from "../services/userServices";
 import { useNavigate } from "react-router-dom";
 import { getUserNotificationsAPI } from "../services/notificationService";
-import { logoutAction } from "../redux/Userslice";
+import { logoutAction } from "../redux/userslice";
 
 const Dbprofile = () => {
   const [profilePic, setProfilePic] = useState(null);

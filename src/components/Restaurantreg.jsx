@@ -7,7 +7,7 @@ import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
 import { addRestaurantAPI } from "../services/restaurantServices";
 import { FaUtensils, FaUserTie, FaBell } from "react-icons/fa";
-import { logoutAction } from "../redux/Userslice";
+import { logoutAction } from "../redux/userslice";
 import { useQuery } from "@tanstack/react-query";
 import { getUserNotificationsAPI } from "../services/notificationService";
 import { useNavigate } from "react-router-dom";

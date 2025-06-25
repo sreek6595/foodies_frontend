@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { changePasswordRestaurantOwnerAPI, editRestaurantOwnerProfileAPI, getRestaurantOwnerProfileAPI } from "../services/restprofileServices";
 import { getUserNotificationsAPI } from "../services/notificationService";
-import { logoutAction } from "../redux/Userslice";
+import { logoutAction } from "../redux/userslice";
 
 const RestaurantProfile = () => {
   const queryClient = useQueryClient();

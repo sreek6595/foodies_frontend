@@ -12,7 +12,7 @@ import {
   FaChevronDown,
   FaStar,
 } from "react-icons/fa";
-import { logoutAction } from "../redux/Userslice";
+import { logoutAction } from "../redux/userslice";
 import { getUserNotificationsAPI } from "../services/notificationService";
 import { useNavigate, useParams } from "react-router-dom";
 import { submitDeliveryFeedbackAPI } from "../services/complaintServices";
