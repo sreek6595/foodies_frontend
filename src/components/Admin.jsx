@@ -17,7 +17,7 @@ import { getOrdersAPI } from "../services/orderServices";
 import { getUsersAPI } from "../services/userServices";
 import { getallReviewsAPI, viewAllRestaurantsAPI } from "../services/restaurantServices";
 import { getUserNotificationsAPI } from "../services/notificationService"; // Import notification service
-import { logoutAction } from "../redux/Userslice";
+import { logoutAction } from "../redux/userslice";
 import { Bar, Pie, Line } from "react-chartjs-2";
 import {
   Chart as ChartJS,
