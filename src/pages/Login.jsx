@@ -5,8 +5,8 @@ import { useMutation } from "@tanstack/react-query";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { forgotAPI, loginAPI, resetAPI } from "../services/userServices";
-import { loginUserAction } from "../redux/Userslice";
 import { jwtDecode } from "jwt-decode";
+import { loginUserAction } from "../redux/userslice";
 
 const backgroundImageUrl = "/Foodies.jpg";
 
