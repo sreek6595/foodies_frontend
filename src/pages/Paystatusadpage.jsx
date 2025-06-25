@@ -1,5 +1,5 @@
 import React from 'react'
-import Paymentstatusad from '../components/paystatusad'
+import Paymentstatusad from '../components/Paystatusad'
 
 function Paystatusadpage() {
   return (
